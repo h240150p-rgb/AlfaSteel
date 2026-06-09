@@ -351,7 +351,7 @@ export const Contact: React.FC<ContactProps> = ({ onShowNotification }) => {
             <div className="map-container">
               <iframe
                 title="ALFA Steel Location"
-                src="https://maps.google.com/maps?q=-17.874111,31.063194&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=-17.905855,31.029885&t=&z=16&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
