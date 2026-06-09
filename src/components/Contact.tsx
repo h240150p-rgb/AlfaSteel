@@ -45,7 +45,7 @@ export const Contact: React.FC<ContactProps> = ({ onShowNotification }) => {
   };
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText('alfasteelroofing@gmail.com');
+    navigator.clipboard.writeText('alfasteelroofmerch@gmail.com');
     onShowNotification('Copied recipient email address!');
   };
 
@@ -88,7 +88,7 @@ export const Contact: React.FC<ContactProps> = ({ onShowNotification }) => {
       `Message:\n${message}`
     );
 
-    const mailtoUrl = `mailto:alfasteelroofing@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoUrl = `mailto:alfasteelroofmerch@gmail.com?subject=${subject}&body=${body}`;
 
     try {
       window.location.href = mailtoUrl;
@@ -144,8 +144,8 @@ export const Contact: React.FC<ContactProps> = ({ onShowNotification }) => {
                 <div className="quote-info-card">
                   <div className="quote-info-card-left">
                     <span className="quote-info-card-label">Recipient Email</span>
-                    <a href="mailto:alfasteelroofing@gmail.com" className="quote-info-card-value email-link">
-                      alfasteelroofing@gmail.com
+                    <a href="mailto:alfasteelroofmerch@gmail.com" className="quote-info-card-value email-link">
+                      alfasteelroofmerch@gmail.com
                     </a>
                   </div>
                   <button 
@@ -217,7 +217,7 @@ export const Contact: React.FC<ContactProps> = ({ onShowNotification }) => {
 
               <div className="quote-actions-row">
                 <a 
-                  href={`https://mail.google.com/mail/?view=cm&fs=1&to=alfasteelroofing@gmail.com&su=${encodeURIComponent(`ALFA Steel Quote Request: ${submittedData.service}`)}&body=${encodeURIComponent(
+                  href={`https://mail.google.com/mail/?view=cm&fs=1&to=alfasteelroofmerch@gmail.com&su=${encodeURIComponent(`ALFA Steel Quote Request: ${submittedData.service}`)}&body=${encodeURIComponent(
                     `ALFA Steel & Roofing Quote Request:\n\n` +
                     `Name: ${submittedData.name}\n` +
                     `Company: ${submittedData.company || 'N/A'}\n` +
@@ -235,7 +235,7 @@ export const Contact: React.FC<ContactProps> = ({ onShowNotification }) => {
                 </a>
                 
                 <a 
-                  href={`mailto:alfasteelroofing@gmail.com?subject=${encodeURIComponent(`ALFA Steel Quote Request: ${submittedData.service}`)}&body=${encodeURIComponent(
+                  href={`mailto:alfasteelroofmerch@gmail.com?subject=${encodeURIComponent(`ALFA Steel Quote Request: ${submittedData.service}`)}&body=${encodeURIComponent(
                     `ALFA Steel & Roofing Quote Request:\n\n` +
                     `Name: ${submittedData.name}\n` +
                     `Company: ${submittedData.company || 'N/A'}\n` +
@@ -301,7 +301,7 @@ export const Contact: React.FC<ContactProps> = ({ onShowNotification }) => {
               <div>
                 <h3 className="contact-item-title">Phone Number</h3>
                 <p className="contact-item-text">
-                  <a href="tel:+263778646199">+263 77 864 6199</a>
+                  <a href="tel:+263779637733">+263 77 963 7733</a>
                 </p>
                 <p className="contact-item-text" style={{ fontSize: '13px', marginTop: '4px' }}>
                   Mon - Fri: 8:00 AM - 5:00 PM
@@ -316,8 +316,8 @@ export const Contact: React.FC<ContactProps> = ({ onShowNotification }) => {
               <div>
                 <h3 className="contact-item-title">WhatsApp</h3>
                 <p className="contact-item-text">
-                  <a href="https://wa.me/263778646199" target="_blank" rel="noopener noreferrer">
-                    +263 77 864 6199
+                  <a href="https://wa.me/263779637733" target="_blank" rel="noopener noreferrer">
+                    +263 77 963 7733
                   </a>
                 </p>
               </div>
@@ -330,7 +330,7 @@ export const Contact: React.FC<ContactProps> = ({ onShowNotification }) => {
               <div>
                 <h3 className="contact-item-title">Email Address</h3>
                 <p className="contact-item-text">
-                  <a href="mailto:alfasteelroofing@gmail.com">alfasteelroofing@gmail.com</a>
+                  <a href="mailto:alfasteelroofmerch@gmail.com">alfasteelroofmerch@gmail.com</a>
                 </p>
               </div>
             </div>
@@ -342,7 +342,7 @@ export const Contact: React.FC<ContactProps> = ({ onShowNotification }) => {
               <div>
                 <h3 className="contact-item-title">Physical Address</h3>
                 <p className="contact-item-text">
-                  102 Seke Road, Graniteside, Harare, Zimbabwe
+                  14New Davies way Prospect, Waterfalls Harare
                 </p>
               </div>
             </div>
@@ -351,7 +351,7 @@ export const Contact: React.FC<ContactProps> = ({ onShowNotification }) => {
             <div className="map-container">
               <iframe
                 title="ALFA Steel Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3797.7719602498263!2d31.0537446!3d-17.8488344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a520ab4cbf61%3A0x63351d7ea9b1df09!2sSeke%20Rd%2C%20Harare!5e0!3m2!1sen!2szw!4v1717520000000!5m2!1sen!2szw"
+                src="https://maps.google.com/maps?q=-17.874111,31.063194&t=&z=16&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

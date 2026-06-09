@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
 import Products from './components/Products';
-import Projects from './components/Projects';
+const Projects = React.lazy(() => import('./components/Projects'));
 import WhyChooseUs from './components/WhyChooseUs';
 import Process from './components/Process';
 import Testimonials from './components/Testimonials';
@@ -82,7 +82,16 @@ export const App: React.FC = () => {
         <About />
         <Services onNavigate={handleNavigate} />
         <Products />
-        <Projects />
+        <React.Suspense fallback={
+          <div className="section bg-surface" style={{ minHeight: '450px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--text-secondary)' }}>
+            <div style={{ textAlign: 'center' }}>
+              <div className="spinner" style={{ border: '3px solid rgba(0, 107, 63, 0.1)', borderTop: '3px solid var(--accent)', borderRadius: '50%', width: '30px', height: '30px', margin: '0 auto 12px', animation: 'spin 1s linear infinite' }} />
+              <span>Loading Featured Projects...</span>
+            </div>
+          </div>
+        }>
+          <Projects />
+        </React.Suspense>
         <WhyChooseUs />
         <Process />
         <Testimonials />

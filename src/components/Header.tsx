@@ -66,12 +66,12 @@ export const Header: React.FC<HeaderProps> = ({ onNavigate, activeSection }) => 
           </nav>
 
           <div className="nav-right">
-            <a href="tel:+263778646199" className="nav-phone">
+            <a href="tel:+263779637733" className="nav-phone">
               <Phone size={16} className="text-accent" />
-              <span>+263 77 864 6199</span>
+              <span>+263 77 963 7733</span>
             </a>
             <a
-              href="https://wa.me/263778646199?text=Hi%20ALFA%20Steel,%20I%20would%20like%20to%20request%20a%20quote."
+              href="https://wa.me/263779637733?text=Hi%20ALFA%20Steel,%20I%20would%20like%20to%20request%20a%20quote."
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-whatsapp btn-sm"
@@ -122,12 +122,12 @@ export const Header: React.FC<HeaderProps> = ({ onNavigate, activeSection }) => 
           ))}
         </ul>
         <div className="mobile-drawer-footer">
-          <a href="tel:+263778646199" className="btn btn-outline" style={{ width: '100%' }}>
+          <a href="tel:+263779637733" className="btn btn-outline" style={{ width: '100%' }}>
             <Phone size={16} />
-            <span>+263 77 864 6199</span>
+            <span>+263 77 963 7733</span>
           </a>
           <a
-            href="https://wa.me/263778646199?text=Hi%20ALFA%20Steel,%20I%20would%20like%20to%20request%20a%20quote."
+            href="https://wa.me/263779637733?text=Hi%20ALFA%20Steel,%20I%20would%20like%20to%20request%20a%20quote."
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-whatsapp"

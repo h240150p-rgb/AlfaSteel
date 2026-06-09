@@ -62,7 +62,6 @@ export const Testimonials: React.FC = () => {
               "{reviews[activeIndex].text}"
             </blockquote>
             <div className="testimonial-client">
-              <div className="client-name">{reviews[activeIndex].name}</div>
               <div className="client-company">{reviews[activeIndex].company}</div>
             </div>
           </div>

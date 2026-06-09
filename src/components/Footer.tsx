@@ -79,15 +79,15 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <div className="footer-contact-info" style={{ marginBottom: '24px' }}>
               <div className="footer-contact-item">
                 <Phone size={16} />
-                <span>+263 77 864 6199</span>
+                <span>+263 77 963 7733</span>
               </div>
               <div className="footer-contact-item">
                 <Mail size={16} />
-                <a href="mailto:alfasteelroofing@gmail.com" style={{ color: 'inherit' }}>alfasteelroofing@gmail.com</a>
+                <a href="mailto:alfasteelroofmerch@gmail.com" style={{ color: 'inherit' }}>alfasteelroofmerch@gmail.com</a>
               </div>
               <div className="footer-contact-item">
                 <MapPin size={16} />
-                <span>102 Seke Road, Harare</span>
+                <span>14New Davies way Prospect, Waterfalls Harare</span>
               </div>
             </div>
             <div className="footer-social-links">
@@ -97,7 +97,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-social-btn" aria-label="LinkedIn">
                 <Linkedin size={18} />
               </a>*/}
-              <a href="https://wa.me/263778646199" target="_blank" rel="noopener noreferrer" className="footer-social-btn" aria-label="WhatsApp">
+              <a href="https://wa.me/263779637733" target="_blank" rel="noopener noreferrer" className="footer-social-btn" aria-label="WhatsApp">
                 <MessageSquare size={18} />
               </a>
             </div>
